@@ -1,0 +1,65 @@
+.applist-frame {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	background: #000;
+	color: #fff;
+	height: 100%;
+}
+
+.applist-frame-home {
+}
+
+.applist-frame-view {
+}
+
+.applist-frame-list {
+}
+
+
+.applist-frame h2 {
+	position: relative;
+}
+
+.applist-frame-inner {
+	border-top: 1px solid #444;
+	padding: 0px 20px;
+}
+
+.applist-frame ul.applist-list {
+	display: block;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.applist-frame ul.applist-list li {
+	display: block;
+	list-style: none;
+	float: left;
+	width: 84px;
+	margin: 0px 6px 6px 0px;
+	padding: 0px;
+}
+.applist-frame ul.applist-list li a:visited,
+.applist-frame ul.applist-list li a:link {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+.applist-frame ul.applist-list li a:hover {
+	background: #333;
+}
+
+.applist-frame ul.applist-list .applist-icon {
+	padding: 0px 4px;
+	text-align: center;
+}
+.applist-frame ul.applist-list .applist-icon img {
+	border: none;
+}
+
+.applist-frame ul.applist-list span {
+	display: block;
+	text-align: center;
+}

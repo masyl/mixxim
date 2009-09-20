@@ -1,0 +1,365 @@
+body {
+	font-family: tahoma;
+	background: #000 url(../images/background.png) repeat-x;
+	color: #fff;
+	margin: 0px;
+	padding: 0px;
+}
+
+a, a:visited, a:link {
+	color: #eee111;
+}
+
+a img {
+	border: none;
+}
+
+#view, .view {
+	display: none;
+}
+
+/* ******************************************************
+
+VIEW-MAIN
+
+*/
+
+#status {
+	display: block;
+	position: absolute;
+	bottom: 10px;
+	height: 20px;
+	width: 97%;
+	left: 1%;
+	background: #eee111;
+	color: #000;
+	font-weight: bold;
+	font-size: 0.8em;
+	padding: 5px 10px;
+}
+
+
+
+/* ******************************************************
+
+VIEW-MAIN
+
+*/
+
+#view-manager {
+	text-align: center;
+	font-size: 1em;
+}
+
+#view-manager #main-menu {
+	font-size: 1em;
+	display: block;
+	position: absolute;
+	left: 140px;
+	top: 14px;
+	z-index: 1000;
+}
+#view-manager #main-menu ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;	
+}
+#view-manager #main-menu ul li {
+	display: block;
+	margin: 0px 10px 0px 0px;
+	padding: 0px;	
+	float: left;
+}
+#view-manager #main-menu ul li a:visited,
+#view-manager #main-menu ul li a:link {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+#view-manager #main-menu ul li a:hover {
+	color: #eee111;
+}
+
+
+#view-manager #tools-menu {
+	font-size: 1em;
+	display: block;
+	position: absolute;
+	right: 1%;
+	top: 14px;
+	z-index: 1000;
+}
+#view-manager #tools-menu ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;	
+}
+#view-manager #tools-menu ul li {
+	display: block;
+	margin: 0px 10px 0px 0px;
+	padding: 0px;	
+	float: left;
+}
+#view-manager #tools-menu ul li a:visited,
+#view-manager #tools-menu ul li a:link {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+}
+#view-manager #tools-menu ul li a:hover {
+	color: #eee111;
+}
+
+
+
+#view-manager #logo-small {
+	position: absolute;
+	top: 7px;
+	left: 1%;
+	font-size: 1em;
+}
+#view-manager #logo-small img {
+	border: none;
+}
+
+#view-manager {
+	text-align: center;
+	font-size: 1em;
+}
+
+#layout-windows {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+#view-manager .layout-window {
+	display: block;
+	position: absolute;
+	background: #000;
+	border: 1px dashed #37364c;
+	overflow: auto;
+
+	width: 32%;
+	height: 85%;
+	top: 40px;
+}
+
+#view-manager #windowA {
+	left: 1%;
+}
+#view-manager #windowB {
+	left: 34%;
+}
+#view-manager #windowC {
+	left: 67%;
+}
+
+
+/* ******************************************************
+
+VIEW-LOGIN
+
+*/
+#view-login {
+	text-align: center;
+	font-size: 1.1em;
+}
+#view-login #login-errors {
+	display: none; /* hidden by default */
+	background: #AA4400;
+	padding: 10px;
+	margin: 10px 0px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#view-login #login-errors .error-message {
+	font-size: 0.9em;
+	color: #FFF;
+}
+#view-login #logo-big {
+	margin: 40px 0px 30px 0px;
+}
+
+#view-login #login-form label {
+}
+
+#view-login #login-form label {
+	display: block;
+	margin: 5px 0px 0px 0px;
+}
+#view-login #login-form input[type="password"],
+#view-login #login-form input[type="textbox"] {
+	width: 95%;
+	font-size: 1.2em;
+	border: 2px solid #7371a0; 
+	padding: 2px 5px;
+}
+#view-login #login-form button {
+	font-size: 1em;
+	margin: 5px 0px 0px 0px;
+	padding: 2px;
+	display: block;
+}
+
+#view-login #login-form #login-atomixaddress {
+	width: 300px;
+}
+#view-login #login-form #login-password {
+	width: 50%;
+}
+#view-login #login-form #login-grp-submit {
+	display: block;
+	position: relative;
+	margin: 5px 0px 0px 0px;
+}
+#view-login #login-createAccount {
+	position: absolute;
+	top: 15px;
+	right: 0px;
+	font-size: 0.75em;
+	
+}
+
+#view-login .content {
+	position: relative;
+	text-align: left;
+	width: 340px;
+	margin: 0px auto;
+}
+
+
+#view-login .atomix-promo {
+	position: relative;
+	font-size: 0.75em;
+	border-top: 1px solid #37364c;
+	margin: 30px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
+}
+#view-login .atomix-promo img {
+	position: absolute;
+	top: 10px;
+	left: 0px;
+}
+#view-login .atomix-promo span {
+	display: block;
+	padding: 0px 0px 0px 40px
+}
+
+
+
+
+
+
+/* ******************************************************
+
+VIEW-LOGIN
+
+*/
+#view-createAccount {
+	text-align: left;
+	font-size: 1em;
+}
+
+#view-createAccount h1 {
+	font-size: 1.4em;
+	font-weight: normal;
+}
+
+#view-createAccount #createAccount-errors {
+	display: none; /* hidden by default */
+	background: #AA4400;
+	padding: 10px;
+	margin: 10px 0px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#view-createAccount #createAccount-errors .error-message {
+	font-size: 0.9em;
+	color: #FFF;
+}
+#view-createAccount .logo-small {
+	position: absolute;
+	right: 0px;
+	margin: 10px 0px 0px 0px;
+}
+
+#view-createAccount #createAccount-form label {
+}
+
+#view-createAccount #createAccount-form label {
+	display: block;
+	margin: 5px 0px 0px 0px;
+}
+#view-createAccount #createAccount-form input[type="password"],
+#view-createAccount #createAccount-form input[type="textbox"] {
+	width: 95%;
+	font-size: 1em;
+	border: 2px solid #7371a0; 
+	padding: 2px 5px;
+	font-weight: normal;
+}
+#view-createAccount #createAccount-form button {
+	font-size: 1em;
+	margin: 5px 0px 0px 0px;
+	padding: 2px;
+	display: block;
+}
+
+#view-createAccount #createAccount-form #createAccount-atomixaddress {
+	width: 300px;
+}
+#view-createAccount #createAccount-form #createAccount-password,
+#view-createAccount #createAccount-form #createAccount-passwordConfirm {
+	width: 50%;
+}
+#view-createAccount #createAccount-form #createAccount-grp-submit {
+	display: block;
+	position: relative;
+	margin: 5px 0px 0px 0px;
+}
+#view-createAccount #createAccount-login {
+	position: absolute;
+	top: 15px;
+	right: 0px;
+	font-size: 0.75em;
+}
+
+#view-createAccount .content {
+	position: relative;
+	text-align: left;
+	width: 340px;
+	margin: 0px auto;
+}
+#view-createAccount .header {
+	position: relative;
+	height: 40px;
+	border-bottom: 2px solid white;
+}
+
+
+
+#view-createAccount .atomix-promo {
+	position: relative;
+	font-size: 0.75em;
+	border-top: 1px solid #37364c;
+	margin: 30px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
+}
+#view-createAccount .atomix-promo img {
+	position: absolute;
+	top: 10px;
+	left: 0px;
+}
+#view-createAccount .atomix-promo span {
+	display: block;
+	padding: 0px 0px 0px 40px
+}
+
+
+
+

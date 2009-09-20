@@ -1,0 +1,38 @@
+/*
+
+
+*/
+
+body {
+	background: #DDD;
+}
+
+#appstage-info {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	width: 400px;
+	height: 600px;
+}
+
+.appstage-app {
+	position: absolute;
+	left: 440px;
+	top: 20px;
+	width: 400px;
+	height: 600px;
+	border: 5px solid #FFF;
+	overflow: auto;
+}
+.appstage-appframe {
+	position: relative;
+	height: 100%;
+	margin: 0px;
+}
+.appstage-frame {
+	display: none;
+}
+
+#appstage-markup {
+	display: none;
+}

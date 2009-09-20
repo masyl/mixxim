@@ -1,0 +1,50 @@
+application: mixxim
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+
+# Cross-site proxy based on the mirrorrr open source project
+- url: /proxy/.*
+  script: mirrorrr/mirror.py
+  secure: optional
+
+- url: /appstage/
+  static_dir: appstage
+  secure: optional
+
+- url: /clients/mixxim/
+  static_dir: clients/mixxim
+  secure: optional
+  expiration: 30m
+
+- url: /apps/
+  static_dir: apps
+  secure: optional
+
+- url: /styles/
+  static_dir: server/static/styles
+  secure: optional
+
+- url: /images/
+  static_dir: server/static/images
+  secure: optional
+
+- url: .*
+  script: runner.py
+
+# skip_files: |
+# ^bin/.*$|
+# ^lib/python2.5/[^/]+$|
+# ^(.*/)?(
+# (app\.yaml)|
+# (app\.yml)|
+# (index\.yaml)|
+# (index\.yml)|
+# (#.*#)|
+# (.*~)|
+# (.*\.py[co])|
+# (.*/RCS/.*)|
+# (\..*)|
+# )$

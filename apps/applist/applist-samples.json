@@ -1,0 +1,91 @@
+{
+	"view": {
+		"id": "urn:uuid:977372f0-8a86-11de-8a39-0800200c9a66",
+		"title": "Applist Atomix App v0.1b",
+		"summary": "Applist is an atomix app that lets you browse and manage all the other atomix apps you have installed in your atomix account.",
+		"lang": "en",
+		"author": "Mathieu Sylvain",
+		"base": "http:\/\/localhost:8080\/apps\/applist\/",
+		"data": {
+			"title": "Applist",
+			"urn": "http:\/\/atomix-api.com\/apps\/applist\/",
+			"lang": "en",
+			"version": "0.1b",
+			"summary": "Applist is an atomix app that lets you browse and manage all the other atomix apps you have installed in your atomix account.",
+			"icon": "applist-icon.png",
+			"resources": [
+				{
+					"rel": "markup",
+					"type": "text\/html",
+					"src": "applist.html"
+				},
+				{
+					"rel": "script",
+					"type": "application\/ecmascript",
+					"src": "applist.js"
+				},
+				{
+					"rel": "stylesheet",
+					"type": "text\/css",
+					"src": "applist.css"
+				},
+				{
+					"rel": "cache",
+					"type": "image\/png",
+					"src": "applist-logo.png"
+				}
+			]
+		}
+	},
+	"list": [
+		{
+		"id": "urn:uuid:977372f0-8a86-11de-8a39-0800200c9a66",
+		"title": "Applist Atomix App v0.1b",
+		"summary": "Applist is an atomix app that lets you browse and manage all the other atomix apps you have installed in your atomix account.",
+		"lang": "en",
+		"author": "Mathieu Sylvain",
+		"base": "http:\/\/localhost:8080\/apps\/applist\/",
+		"data": {
+				"title": "Applist",
+				"urn": "http:\/\/atomix-api.com\/apps\/applist",
+				"lang": "en",
+				"version": "0.1b",
+				"summary": "Applist is an atomix app that lets you browse and manage all the other atomix apps you have installed in your atomix account.",
+				"icon": "applist-icon.png"
+			}
+		},
+		{
+		"id": "urn:uuid:977372f0-8a86-11de-8a39-0800200c9a66",
+		"title": "Notes Atomix App v0.3b",
+		"summary": "Note app is bla bla bla",
+		"lang": "en",
+		"author": "Mathieu Sylvain",
+		"base": "http:\/\/localhost:8080\/apps\/notes\/",
+		"data": {
+				"title": "Notes",
+				"urn": "http:\/\/atomix-api.com\/apps\/notes",
+				"lang": "en",
+				"version": "0.3b",
+				"summary": "Note app is bla bla bla",
+				"icon": "notes-icon.png"
+			}
+		},
+		{
+		"id": "urn:uuid:977372f0-8a86-11de-8a39-0800200c9a66",
+		"title": "Playlist Atomix App v0.2b",
+		"summary": "Playlist app is ya ya ya.",
+		"lang": "en",
+		"author": "Mathieu Sylvain",
+		"base": "http:\/\/localhost:8080\/apps\/playlist\/",
+		"data": {
+				"title": "Playlist",
+				"urn": "http:\/\/atomix-api.com\/apps\/playlist",
+				"lang": "en",
+				"version": "0.2b",
+				"summary": "Playlist app is ya ya ya.",
+				"icon": "playlist-icon.png"
+			}
+		}
+	]
+}
+

@@ -1,0 +1,22 @@
+import sys; sys.__plen = len(sys.path)
+./pylons-0.9.7-py2.5.egg
+./tempita-0.2-py2.5.egg
+./webtest-1.1-py2.5.egg
+./weberror-0.10.1-py2.5.egg
+./webob-0.9.6.1-py2.5.egg
+./mako-0.2.4-py2.5.egg
+./nose-0.10.4-py2.5.egg
+./decorator-3.0.0-py2.5.egg
+./formencode-1.2.1-py2.5.egg
+./pastescript-1.7.3-py2.5.egg
+./pastedeploy-1.3.3-py2.5.egg
+./paste-1.7.2-py2.5.egg
+./beaker-1.3.1-py2.5.egg
+./webhelpers-0.6.4-py2.5.egg
+./routes-1.10.3-py2.5.egg
+./pygments-1.0-py2.5.egg
+./simplejson-2.0.9-py2.5-win32.egg
+./authkit
+./elementtree
+./openid
+import sys; new=sys.path[sys.__plen:]; del sys.path[sys.__plen:]; p=getattr(sys,'__egginsert',0); sys.path[p:p]=new; sys.__egginsert = p+len(new)

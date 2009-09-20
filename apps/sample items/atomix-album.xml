@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:atomix="http://atomix-api.com/2009/Atomix">
+	<title>Mellow Gold, Beck, 1994</title>
+	<id></id>
+	<summary type="text">Music Album titled Mellow Gold, by Beck, 1994</summary>
+	<atomix:content type="music-album@atomixapi.com" xml:lang="en" xml:base="http://localhost:8080/mix/"><![CDATA[
+{
+    "title": "Mellow Gold",
+    "artist": "Beck",
+    "genres": "Alternative rock",
+    "year": "1994",
+    "coverImage": "http://upload.wikimedia.org/wikipedia/en/3/3e/MellowGold.jpg",
+    "releases": [
+        {
+            "label": "Geffen Records",
+            "length": "47:36",
+            "medium": "CD",
+            "codes": [
+                {
+                    "type": "ASIN",
+                    "code": "B000003TB2" 
+                } 
+            ]
+        },
+        {
+            "label": "Bong Load Records",
+            "length": "47:36",
+            "medium": "VINYL",
+            "codes": [
+                {
+                    "type": "ASIN",
+                    "code": "B0000063AI" 
+                } 
+            ] 
+        } 
+    ],
+    "tracks": [
+        {
+            "title": "Loser",
+            "track": 1,
+            "length": "3:55",
+            "medias": [
+                "http://www.hotlinkfiles.com/files/1005903_tc4gl/_NoDRM_-Beck-Loser.mp3",
+                "http://www.artinfo.ru/ru/news/wavreports/Beck-Loser-1994-Beck_Mellow_Gold.mp3" 
+            ],
+            "lyrics": "In the time of chimpanzees I was a monkey\nButane in my veins and I'm out to cut the junkie\nWith the plastic eyeballs, spray-paint the vegetables\nDog food stalls with the beefcake pantyhose\nKill the headlights and put it in neutral\nStock car flamin' with a loser and the cruise control\nBaby's in reno with the vitamin d\nGot a couple of couches, sleep on the love-seat\nSomeone came sayin' I'm insane to complain\nAbout a shotgun wedding and a stain on my shirt\nDon't believe everything that you breathe\nYou get a parking violation and a maggot on your sleeve\nSo shave your face with some mace in the dark\nSavin' all your food stamps and burnin' down the trailer park\n\nYo. cut it.\n\nSoy un perdedor\nI'm a loser baby, so why don't you kill me?\n\n(double barrel buckshot)\nSoy un perdedor\nI'm a loser baby, so why don't you kill me?\n\nForces of evil on a bozo nightmare\nBan all the music with a phony gas chamber\n'cuz one's got a weasel and the other's got a flag\nOne's on the pole, shove the other in a bag\nWith the rerun shows and the cocaine nose-job\nThe daytime crap of the folksinger club\nHe hung himself with a guitar string\nA slab of turkey-neck and it's hangin' from a pigeon wing\nYou can't write if you can't relate\nTrade the cash for the beef for the body for the hate\nAnd my time is a piece of wax fallin' on a termite\nwho's chokin' on the splinters\n\nSoy un perdedor\nI'm a loser baby, so why don't you kill me?\n(get crazy with the cheese whiz)\nSoy un perdedor\nI'm a loser baby, so why don't you kill me?\n(drive-by body-pierce)\n(yo bring it on down)\nSoooooyy....\n\n?em llik uoy t'nod yhw os ,ybab resol a m'I rodedreP nu yos\n[It's the Chorus backwards]\n\n(I'm a driver, I'm a winner; things are gonna change I can feel it)\n\nSoy un perdedor\nI'm a loser baby, so why don't you kill me?\n(I can't believe you)\nSoy un perdedor\nI'm a loser baby, so why don't you kill me?\n(Nlehh...)\nSoy un perdedor\nI'm a loser baby, so why don't you kill me?\n(Sprechen Sie Deutsch hier, Baby!)\nSoy un perdedor\nI'm a loser baby, so why don't you kill me?\n(know what I'm sayin'? )" 
+        },
+        {
+            "title": "Pay No Mind (Snoozer)",
+            "track": 2,
+            "length": "3:15" 
+        },
+        {
+            "title": "Fuckin With My Head",
+            "track": 3,
+            "length": "3:41" 
+        },
+        {
+            "title": "Whiskeyclone, Hotel City 1997",
+            "track": 4,
+            "length": "3:28" 
+        },
+        {
+            "title": "Soul Suckin Jerk",
+            "track": 5,
+            "length": "3:57" 
+        },
+        {
+            "title": "Truckdrivin Neighbors Downstairs",
+            "track": 6,
+            "length": "2:55" 
+        },
+        {
+            "title": "Sweet Sunshine",
+            "track": 7,
+            "length": "4:14" 
+        },
+        {
+            "title": "Beercan",
+            "track": 8,
+            "length": "4:00" 
+        },
+        {
+            "title": "Steal My Body Home",
+            "track": 9,
+            "length": "5:34" 
+        },
+        {
+            "title": "Nitemare Hippy Girl",
+            "track": 10,
+            "length": "2:55" 
+        },
+        {
+            "title": "Mutherfuker",
+            "track": 11,
+            "length": "2:04" 
+        },
+        {
+            "title": "Blackhole",
+            "track": 12,
+            "length": "7:33",
+            "comment": "Includes the hidden track 'Analog Odyssey'."
+        } 
+    ],
+    "contributors": [
+        {
+            "name": "Beck Hansen",
+            "roles": "Producer, Guitar, Vocals" 
+        },
+        {
+            "name": "Tom Rothrock",
+            "roles": "Producer, Mixing" 
+        },
+        {
+            "name": "Rob Schnapf",
+            "roles": "Producer, Mixing" 
+        },
+        {
+            "name": "Carl Stephenson",
+            "roles": "Producer" 
+        },
+        {
+            "role": "organ",
+            "name": "Mike Boito",
+            "tracks": "8" 
+        },
+        {
+            "name": "Stephen Marcussen",
+            "role": "mastering" 
+        },
+        {
+            "name": "Petra Haden",
+            "role": "violin",
+            "tracks": "12" 
+        },
+        {
+            "name": "David Harte",
+            "role": "",
+            "tracks": "2, 10, 11" 
+        },
+        {
+            "name": "Rob Zabrecky",
+            "role": "bass",
+            "tracks": "12" 
+        },
+        {
+            "name": "Robert Fisher",
+            "role": "art direction, design" 
+        },
+        {
+            "name": "Ross Harris",
+            "role": "photography" 
+        } 
+    ],
+    "codes": [
+        {
+            "type": "freedb-id",
+            "code": "rock/ec10bb12" 
+        } 
+    ],
+    "links": [
+        {
+            "title": "Mellow Gold at MusicBrainz",
+            "href": "http://musicbrainz.org/release/401b0a2d-a250-4fe0-ae73-53fc4ca4ae68.html" 
+        } 
+    ]
+}
+]]></atomix:content>
+	<content type="xhtml" xml:lang="en" xml:base="http://localhost:8080/mix/">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			Music Album titled Mellow Gold, by Beck, 1994
+		</div>
+	</content>
+</entry>

@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+	<title>Never Gonna Give You Up by Rick Astley v0.1b</title>
+	<id>urn:uuid:54603f10-8cd5-11de-8a39-0800200c9a66</id>
+	<author><name>Rick Astley</name></author>
+	<summary type="text">
+		"Never Gonna Give You Up" is a song by English singer Rick Astley. The song is released as the first single from Astley's multi-million selling debut album, Whenever You Need Somebody. The song was a worldwide number-one hit, initially in the singer's native United Kingdom in 1987, where it stayed at number one for five weeks and was the best-selling single of that year.
+	</summary>
+	<content type="xhtml" xml:lang="en" xml:base="http://atomix-app.com/apps/applist/">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<p>
+				"Never Gonna Give You Up" is a song by English singer Rick Astley. The song is released as the first single from Astley's multi-million selling debut album, Whenever You Need Somebody. The song was a worldwide number-one hit, initially in the singer's native United Kingdom in 1987, where it stayed at number one for five weeks and was the best-selling single of that year.
+			</p>
+			<p>
+				The song won Best British Single at the 1988 Brit Awards.
+			</p>
+			<p>
+				It became number one throughout Europe and hit number one on the Billboard Hot 100 in the United States on March 12, 1988. It reached number one in Australia in December 1987. Soon after, the song was specifically mentioned in The Manual by hit-makers The KLF as a positive example of 'genius' chart pop lyrics. "Never Gonna Give You Up" is listed as the best charting single of the 1980s in Australia by the Kent Music Report due to its longevity in the charts. The music video for the song has become the basis for the "Rickrolling" Internet meme.
+			<p>
+				Applist is an atomix app that lets you browse and manage all the other atomix apps you have installed in your atomix account.
+			</p>
+			<p>
+				Note: This content is better viewed with an <a href="http://atomix-api.com">Atomix</a> compatible software.
+			</p>
+			<div class="atomix-data">
+				<!--<![CDATA[
+					{
+						"title": "Applist",
+						"urn": "http:\/\/atomix-api.com\/apps\/applist",
+						"lang": "en",
+						"version": "0.1b",
+						"summary": "Applist is an atomix app that lets you browse and manage all the other atomix apps you have installed in your atomix account.",
+						"formats": {
+							
+						},
+						"resources": {
+							[
+								{
+									"rel": "markup",
+									"type": "text\/html",
+									"src": "applist.html"
+								},
+								{
+									"rel": "script",
+									"type": "application\/ecmascript",
+									"src": "applist.js"
+								},
+								{
+									"rel": "stylesheet",
+									"type": "text\/css",
+									"src": "applist.css"
+								},
+								{
+									"rel": "icon",
+									"type": "image\/png",
+									"src": "applist-icon.png"
+								},
+								{
+									"rel": "cache",
+									"type": "image\/png",
+									"src": "applist-logo.png"
+								},
+							],
+						}
+					}	
+				]]>-->
+			</div>
+		</div>
+	</content>
+</entry>

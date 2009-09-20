@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<title>Page Title</title>
+		<script src="scripts/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+	</head>
+	<body>
+		<div id="commands">
+			<button onclick="{
+		console.log(window.parent);
+		window.document.domain = 'mixxim.com';
+		$(window.parent.document.documentElement).append('Ho snap!');
+	}">
+				Pink Parent
+			</button>
+		</div>
+		<br/>
+		<div class="frame">
+			<h1>A</h1>
+			<iframe src="http://acme.com/clients/mixxim/xfs-demo.html" id="frame-A">
+			</iframe>
+		</div>
+		<div class="frame">
+			<h1>B</h1>
+			<iframe src="http://mixxim.com/clients/mixxim/xfs-demo.html" id="frame-B">
+			</iframe>
+		</div>
+		<div class="frame">
+			<h1>C</h1>
+			<iframe id="frame-C"></iframe>
+		</div>
+<script type="text/javascript" charset="utf-8">
+	$=jQuery;
+
+
+function initFrame() {	
+	ifrm = $("#frame-A")[0];
+	console.log(ifrm);
+	doc = (ifrm.contentWindow) ? ifrm.contentWindow : (ifrm.contentDocument.document) ? ifrm.contentDocument.document : ifrm.contentDocument;
+	console.log(doc);
+	
+	doc.document.open();
+	doc.document.write($("#commands").clone(true).html());
+	doc.document.close();
+	console.log(doc.document.documentElement.innerHTML);
+	root = $(doc.document.documentElement);
+	console.log(root.html());
+//	root.html("yaaa!");
+	doc.domain = "acme.com";
+//	root.html("FAIL!");
+	console.log(doc.domain);
+}
+
+</script>
+<style type="text/css" media="screen">
+	.frame {
+		width: 30%;
+		float: left;
+	}
+</style>
+
+	</body>
+</html>

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<entry xmlns="http://www.w3.org/2005/Atom">
+	<title>Applist Atomix App v0.1b</title>
+	<id>urn:uuid:977372f0-8a86-11de-8a39-0800200c9a66</id>
+	<author><name>Mathieu Sylvain</name></author>
+	<summary type="text">
+		Applist is an atomix app that lets you browse and manage all the other atomix apps you have installed in your atomix account.
+	</summary>
+	<content type="xhtml" xml:lang="en" xml:base="http://atomix-app.com/apps/applist/">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+		    <p>
+				Applist is an atomix app that lets you browse and manage all the other atomix apps you have installed in your atomix account.
+			</p>
+			<p>
+				Version 0.1b
+			</p>
+			<p>
+				Note: This content is better viewed with an <a href="http://atomix-api.com">Atomix</a> compatible software.
+			</p>
+			<div class="atomix-data"><![CDATA[
+{
+"title": "Applist",
+"urn": "http:\/\/atomix-api.com\/apps\/applist",
+"lang": "en",
+"version": "0.1b",
+"summary": "Applist is an atomix app that lets you browse and manage all the other atomix apps you have installed in your atomix account.",
+"resources": [
+	{
+		"rel": "markup",
+		"type": "text\/html",
+		"src": "applist.html"
+	},
+	{
+		"rel": "script",
+		"type": "application\/ecmascript",
+		"src": "applist.js"
+	},
+	{
+		"rel": "stylesheet",
+		"type": "text\/css",
+		"src": "applist.css"
+	},
+	{
+		"rel": "icon",
+		"type": "image\/png",
+		"src": "applist-icon.png"
+	},
+	{
+		"rel": "cache",
+		"type": "image\/png",
+		"src": "applist-logo.png"
+	}
+]
+}	
+			]]></div>
+		</div>
+	</content>
+</entry>
