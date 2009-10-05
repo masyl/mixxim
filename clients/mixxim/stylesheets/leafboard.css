@@ -1,0 +1,366 @@
+/************************************************
+
+	LAYOUT FOR THE "LEAFBOARD" LAYOUT
+	FOR MIXXIM CLIENT
+
+*/
+
+
+/************************************************
+	BASIC STYLES
+*/
+	html {
+		margin: 0px;
+		padding: 0px;
+		height: 100%;
+		width: 100%;
+		font-family: Arial, "MS Trebuchet", sans-serif;
+		font-size: 96%;
+	}
+
+	body {
+		margin: 0px;
+		padding: 0px;
+		height: 100%;
+		width: 100%;
+		color: #fff;
+	}
+
+/************************************************
+	CANVAS
+*/
+	.canvas {
+		height: 100%;
+		width: 100%;
+	}
+
+/************************************************
+	WALLPAPER
+*/
+	.wallpaper {
+		position: fixed;
+		height: 100%;
+		width: 100%;
+	}
+
+	.wallpaper img {
+		position: fixed;
+		height: 100%;
+		width: 100%;
+	}
+
+
+/************************************************
+	MENU
+*/
+	.menuBar {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 70%;
+		height: 40px;
+		background: none;
+		z-index: 1000;
+	}
+	.menuBar:hover {
+		background: url(../images/black-30.png);
+	}
+	.mainMenu {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+
+	.mainMenu ul {
+		list-style: none;
+		margin: 0px 0px 0px 20px;
+		padding: 0px;
+		height: 40px;
+	}
+	.menuBar:hover .mainMenu ul {
+		border-left: 1px solid #222;
+		margin-left: 19px;
+		border-right: 1px solid #555;
+	}
+
+	.mainMenu ul li {
+		float: left;
+		margin: 0px;
+		padding: 0px;
+		height: 40px;
+		margin: 0px 1px 0px 1px;
+	}
+	.menuBar:hover .mainMenu ul li {
+		border-right: 1px solid #222;
+		border-left: 1px solid #555;
+		margin: 0px;
+	}
+	.mainMenu ul li:hover {
+		background: #000;
+	}
+
+	.mainMenu ul li.last {
+	}
+
+	.mainMenu ul li a:visited,
+	.mainMenu ul li a:link {
+		display: block;
+		height: 20px;
+		font-size: 1.1em;
+		text-decoration: none;
+		padding: 10px 10px;
+		color: #fff;
+	}
+
+
+
+/************************************************
+	SIDEBAR
+*/
+	.sidebar-background {
+		position: fixed;
+		top: 0px;
+		right: 0px;
+		height: 100%;
+		width: 30%;
+		margin-right: 9px;
+	}
+	.sidebar-background .body {
+		position: absolute;
+		background: url(../images/sidebar-background.png) right top repeat-y;
+		top: 0px;
+		left: 9px;
+		height: 100%;
+		width: 100%;
+	}
+	.sidebar-background .shadow {
+		position: absolute;
+		background: url(../images/sidebar-shadow.png) left top repeat-y;
+		top: 0px;
+		left: 0px;
+		height: 100%;
+		width: 9px;
+	}
+
+	.sidebar {
+		position: relative;
+		float: right;
+		width: 30%;
+		color: #fff;
+		padding-top: 40px;
+	}
+
+	.sidebar h2 {
+		margin: 0px;
+		padding: 0px;
+		font-size: 1.5em;
+		font-weight: normal;
+	}
+
+/************************************************
+	ITEM LIST
+*/
+
+	.itemList {
+		clear: both;
+		padding: 10px;
+		margin: 0px 0px 20px 0px;
+	}
+
+	.itemList .item {
+		clear: both;
+		margin: 5px;
+		padding: 5px;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		cursor: pointer;
+	}
+
+	.itemList div:hover.item {
+		background: url(../images/black-30.png);
+	}
+
+	.itemList .item img {
+		width: 24px;
+		height: 24px;
+		width: 32px;
+		height: 32px;
+		vertical-align: middle;
+	}
+	.itemList .item .icon{
+		display: inline;
+	}
+	.itemList .item .label {
+		font-size: 1.1em;
+		display: inline;
+	}
+
+/************************************************
+	APP STAGE
+*/
+	.appStage {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 70%;
+		margin: 40px 0px 100px 0px;
+	}
+	.appStage-inner {
+		position: relative;
+		width: auto;
+		margin: 20px 30px 20px 20px;
+	}
+	.appFrame {
+		position: relative;
+		top: 0px;
+		left: 0px;
+		margin: 0px;
+		width: auto; /* RESIZE WITH JS HERE! */
+		background: url(../images/black-30.png);
+		padding: 30px 10px 10px 10px;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+
+	.appFrame iframe {
+		position: relative;
+		padding: 0px;
+		width: 100%;
+		border: none;
+		height: 500px; /* RESIZE WITH JS HERE! */
+	}
+
+/************************************************
+	APP QUEUE
+*/
+	.appQueue {
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+		width: 70%;
+		height: 100px;
+	}
+
+	.appQueue .instanceList {
+		position: relative;
+		margin: 0px 10px 0px 15px;
+	}
+
+	.appQueue .instanceList .item {
+		position: relative;
+		float: left;
+		background: url(../images/black-30.png);
+		padding: 5px;
+		margin-bottom: 30px;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		margin-right: 10px;
+	}
+	.appQueue .instanceList .item:hover {
+		background: #000;
+	}
+	.appQueue .instanceList .item .itemContent {
+		height: 70px;
+		width: 50px;
+		background: #000;
+	}
+
+	.appQueue .instanceList .item.openNew .itemContent {
+		background: none;
+	}
+
+	.appQueue .instanceList .item.empty .itemContent {
+		background: none;
+	}
+
+/************************************************
+	MAIN SEACH BOX
+*/
+	.mainSearch {
+		position: fixed;
+		top: 0px;
+		left: 70%;
+		padding: 0px 0px 0px 10px;
+		width: 30%;
+		height: 40px;
+		z-index: 2000;
+	}
+	.mainSearch:hover {
+		background: #000;
+	}
+	.mainSearch .body {
+		margin-top: 8px;
+	}
+	.mainSearch input {
+		border-radius: 5px 0px 0px 5px;
+		-moz-border-radius: 5px 0px 0px 5px;
+		-webkit-border-radius: 5px 0px 0px 5px;
+		width: 80%;
+		border: 1px solid #fff;
+		height: 22px;
+		font-size: 1.1em;
+		margin: 0px;
+		padding: 0px 0px 0px 5px;
+		border: 1px solid #fff;
+		vertical-align: bottom;
+	}
+	.mainSearch button {
+		width: 15%;
+		border-radius: 0px 5px 5px 0px;
+		-moz-border-radius: 0px 5px 5px 0px;
+		-webkit-border-radius: 0px 5px 5px 0px;
+		border: 1px solid #b1b1b1;
+		background: #c0c0c0 url(../images/button-background.png) repeat-x;
+		font-size: 1.0em;
+		height: 24px;
+		margin: 0px;
+		padding: 0px 0px 0px 0px;
+		vertical-align: bottom;
+	}
+
+
+/************************************************
+	APP LIST
+*/
+
+	.appList {
+		clear: both;
+		padding: 10px;
+		margin: 0px 0px 20px 0px;
+	}
+
+	.appList .item {
+		float: left;
+		width: 90px;
+		margin: 5px;
+		padding: 5px;
+		text-align: center;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		cursor: pointer;
+	}
+
+	.appList div:hover.item {
+		float: left;
+		background: url(../images/black-30.png);
+	}
+
+	.appList .item img {
+		width: 64px;
+		height: 64px;
+	}
+	.appList .item .label {
+		font-size: 0.85em;
+	}
+
+	
+
+/************************************************
+	MISCELANEOUS
+*/
+
+

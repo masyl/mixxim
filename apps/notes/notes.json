@@ -1,0 +1,58 @@
+{
+	"url": "http://mixxim.com/apps/notes/app.xml",
+	"longLabel": "Notes",
+	"shortLabel": "Mixxim Notes",
+	"version": "0.1",
+	"author": "Mathieu Sylvain",
+	"base": "http://mixxim.com/apps/notes",
+	"homepage": "http://mixxim.com/apps/notes",
+	"icon": "http://mixxim.com/apps/notes/icon.png",
+	"src": "http://mixxim.com/apps/notes/app.js",
+	"supported-types": [
+		"notes@mixapi.com"
+	],
+	"libs": [
+		{
+			"id": "notes",
+			"src": "http://mixxim.com/apps/notes/notes.js"
+		}
+	],
+	"guis": [
+		{"type": "home" },
+		{"type": "about" },
+		{
+			"type": "list",
+			"shortLabel": "List",
+			"longLabel": "List of notes",
+			"description": "Show a list of nots",
+			"types": ["notes@mixapi.com"]
+		},
+		{
+			"type": "view",
+			"shortLabel": "View",
+			"longLabel": "View a note",
+			"types": ["notes@mixapi.com"]
+		},
+		{
+			"type": "edit",
+			"shortLabel": "Edit",
+			"longLabel": "Edit a note",
+			"types": ["notes@mixapi.com"]
+		}
+	],
+	"builders": [
+		{
+			"id": "prefix",
+			"type": "text",
+			"description": 'Create a note by starting a text with "note", "nb", "fyi".',
+			"regexp-matches": [
+				"/^note /i",
+				"/^note: /i",
+				"/^nb /i",
+				"/^nb: /i",
+				"/^fyi /i",
+				"/^fyi: /i"
+			]
+		}
+	]
+}
